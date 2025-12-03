@@ -1,0 +1,54 @@
+# 依赖和包管理
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 构建产物
+dist/
+build/
+*.log
+
+# 环境变量和敏感信息
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config.local.*
+
+# API Keys 和 Tokens
+**/secrets/
+**/*secret*
+**/*token*
+**/*apikey*
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 操作系统文件
+Thumbs.db
+desktop.ini
+
+# 本地配置
+*.local.json
+*.local.md
+local/
+

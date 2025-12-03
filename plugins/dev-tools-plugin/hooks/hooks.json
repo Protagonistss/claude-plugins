@@ -1,0 +1,23 @@
+{
+  "onLoad": {
+    "description": "插件加载时触发",
+    "action": "initializeDevTools"
+  },
+  "onCommand": {
+    "description": "执行命令时触发",
+    "action": "logCommandExecution"
+  },
+  "onAgentActivate": {
+    "description": "激活代理时触发",
+    "action": "prepareAgentContext"
+  },
+  "onCodeReview": {
+    "description": "代码审查完成时触发",
+    "action": "generateReviewReport"
+  },
+  "onRefactor": {
+    "description": "重构完成时触发",
+    "action": "updateDocumentation"
+  }
+}
+
