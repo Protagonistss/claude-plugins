@@ -1,0 +1,23 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "专业的代码审查插件，提供全面的代码质量分析、安全检查和性能优化建议",
+  "author": {
+    "name": "huangshan",
+    "email": "protagonisths@gmail.com"
+  },
+  "homepage": "https://github.com/Protagonisths/claude-plugins",
+  "keywords": ["code-review", "code-quality", "security", "performance", "best-practices"],
+  "license": "MIT",
+  "engines": {
+    "claude": ">=1.0.0"
+  },
+  "capabilities": [
+    "commands",
+    "agents",
+    "skills",
+    "hooks"
+  ],
+  "category": "development-tools"
+}
+  
