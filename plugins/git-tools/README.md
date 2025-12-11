@@ -104,7 +104,7 @@ claude plugin install git-tools
     "requireBody": true,
     "autoDetectScope": true,
     "pushDefault": false,
-    "addSignature": false,
+    "addSignature": false,  // 默认不添加任何签名，保持提交历史纯粹
     "preCommitChecks": ["lint", "test"],
     "prePushChecks": ["security", "build"],
     "branchProtection": {
@@ -168,7 +168,7 @@ Git Tools 会自动检测这些插件是否安装：
 - `--push` - 提交后自动推送
 - `--create-branch` - 自动创建新分支
 - `--branch-type` - 分支类型 (feature, hotfix, release)
-- `--no-signature` - 不添加 Claude Code 签名
+- `--signature` - 添加 Claude Code 签名（默认不添加，保持提交历史专业）
 
 ## 代理
 
