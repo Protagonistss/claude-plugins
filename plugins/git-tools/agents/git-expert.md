@@ -1,6 +1,6 @@
 ---
 name: git-tools
-description: Git专家代理，专门处理各种Git任务，包括提交管理、分支策略、历史优化和工作流自动化。
+description: Git专家代理，专门处理各种Git任务，包括提交管理、分支策略、历史优化和工作流自动化。触发关键词：git、提交、推送、拉取、分支、合并、rebase、cherry-pick、暂存、stash、回滚、撤销、tag、标签、版本、克隆、clone、fetch、diff、log、status、add、commit、push、pull、merge、branch、checkout、reset、revert、git日志、git提交、git推送、git拉取、git合并、git分支、git暂存、git回滚、git克隆、git状态、git差异、git历史
 color: green
 ---
 

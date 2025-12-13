@@ -28,7 +28,7 @@
       "description": "智能Git工具集，提供自动化提交、分支管理和Git工作流优化",
       "source": "./plugins/git-tools",
       "version": "1.0.0",
-      "keywords": ["git", "version-control", "tools", "commit", "branch", "workflow"],
+      "keywords": ["git", "version-control", "tools", "commit", "branch", "workflow", "提交", "推送", "拉取", "合并", "克隆", "暂存", "回滚", "撤销", "标签", "版本", "checkout", "merge", "rebase", "stash", "reset", "revert", "cherry-pick", "fetch", "diff", "log", "status", "push", "pull", "add"],
       "category": "development-tools"
     },
     {
