@@ -12,7 +12,7 @@ color: green
 - 智能分析和生成提交信息（Conventional Commits）
 - 优化提交历史
 - 处理合并冲突
-- 默认不添加工具标识，保持专业性
+- 禁止添加任何 AI 工具标识，确保提交历史的专业性和纯粹性
 
 ### 🌿 分支管理
 - 设计分支策略（GitFlow, GitHub Flow）

@@ -36,7 +36,7 @@
 - `--draft-pr` - 创建草稿 PR
 - `--assign <user>` - 指定 PR 审查人
 - `--label <label>` - 添加 PR 标签
-- `--signature` - 添加 "Generated with Claude Code" 签名（默认不添加）
+- `--no-verify` - 跳过 Git hooks（谨慎使用）
 
 ## 示例
 
@@ -52,8 +52,6 @@
 # 仅检查变更，不提交
 /commit --check
 
-# 提交并添加 Claude Code 签名（特殊情况下使用）
-/commit --signature
 ```
 
 ### 指定提交类型
@@ -270,7 +268,7 @@ refactor(scope): 重构描述
     "requireIssue": false,
     "autoDetectScope": true,
     "pushDefault": false,
-    "addSignature": false,  // 默认不添加任何签名，保持提交历史纯粹
+    "addSignature": false,  // 禁止添加任何 AI 工具签名，保持提交历史专业性和纯粹性
     "preCommitChecks": ["lint", "test"],
     "prePushChecks": ["security", "build"],
     "branchProtection": {
